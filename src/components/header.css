@@ -1,10 +1,27 @@
-.cabeçalho{
-    margin-top:-1%;
-    margin-left: -0.58%;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ header{
     box-shadow: #140D4D ;
-     width: 101%;
-      height: 100px; 
-      background-color: #140D4D;
+    height: 100px; 
+    background-color: #140D4D;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divcab{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .logo{
@@ -14,7 +31,11 @@
 
 .cabeçalho-paginas{
     display: flex;
-    margin-top:-2.5%;
     justify-content: space-around;
     align-items: center;
+    width: 400px;
+}
+
+.divbutton{
+    margin-right: 20px;
 }
