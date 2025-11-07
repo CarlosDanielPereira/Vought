@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+font-family: 'bebasneue';
+src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
+}
+
+footer{
+    background-color: #070135;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'bebasneue', sans-serif ;
+}
+
+.divlogos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imgfooter{
+    width: 150px;
+}
+
+.divredes{
+margin-top: 10px;
+}
+.redesfooter{
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.divmapa{
+    color: white;
+}
