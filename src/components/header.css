@@ -54,15 +54,14 @@ src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
     margin-right: 20px;
 }
 
-.divbotao{
+
+
+.abotao{
+    color: #140D4D;
+    text-decoration: none;
     margin-right: 50px;
     background-color: white;
     border-radius: 50px;
     padding: 15px 40px 15px 40px;
     font-size: 20px;
-}
-
-.abotao{
-    color: #140D4D;
-    text-decoration: none;
 }

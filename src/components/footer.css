@@ -7,37 +7,84 @@ font-family: 'bebasneue';
 src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
 }
 
-footer{
-    background-color: #070135;
+
+footer {
+    width: 100%;
+    background-color: #070533; 
     border-top: 10px solid black;
     border-bottom: 10px solid black;
+    padding: 50px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1400px;        /* ajusteo tamanho da pagina */
+    margin: 0 auto;           /* centraliza */
+    padding: 0 40px;          /* lateral */
+    
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    font-family: 'bebasneue', sans-serif ;
+    align-items: flex-start;
+
+    gap: 40px;
+    overflow: hidden;         /* impede passar da pagina */
 }
 
-.divlogos{
+/* Colunas */
+.footer-col {
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 10px;
+    min-width: 150px;
 }
 
-#imgfooter{
-    width: 150px;
+.footer-col h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
-.divredes{
-margin-top: 10px;
-}
-.redesfooter{
-    margin-right: 5px;
-    margin-left: 10px;
-    width: 30px;
+.footer-col a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.2s;
 }
 
-.divmapa{
+.footer-col a:hover {
     color: white;
 }
+
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* centraliza horizontalmente a logo e os ícones */
+    justify-content: flex-start;
+    gap: 18px;              /* espaço entre logo e a linha de ícones */
+}
+
+.divredes {
+    display: flex;
+    gap: 18px;
+    align-items: center;    /* garantir que os ícones fiquem na mesma linha */
+    margin-top: 3px;       
+}
+
+.redesfooter {
+    width: 32px;
+    transition: 0.3s;
+}
+.redesfootergit {
+    width: 36px;
+    transition: 0.3s;
+}
+
+.redesfooter:hover {
+    transform: scale(1.15);
+}
+.redesfootergit:hover {
+    transform: scale(1.15);
+}
+
