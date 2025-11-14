@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+font-family: 'bebasneue';
+src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
+}
+
+body{
+    box-shadow: #140D4D ;
+    height: 100px; 
+    background-color: #140D4D;
+    justify-content: space-between;
+    font-family: 'bebasneue', sans-serif ;
+    color: white;
+
+}
+
+main{
+    width: 1241px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.virarheoi{
+    background-color: #060033;
+}
+
+.divsejaheroi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
