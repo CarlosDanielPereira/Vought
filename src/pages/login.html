@@ -6,7 +6,7 @@
     <title>Vought</title>
     <link rel="stylesheet" href="../../src/components/header.css">
     <link rel="stylesheet" href="../../src/components/footer.css">
-    <link rel="stylesheet" href="../../src/styles/procurados.css">
+    <link rel="stylesheet" href="../../src/styles/cadastro.css">
 </head>
 
 <body>
@@ -44,55 +44,37 @@
         </div>
     </header>
 
-    <div class="procurados">
-        <h1>PROCURADOS</h1>
-
-        <div class="container-procurado">
-
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/billy bruto.png">
-
-                </div>
+    <section class="secao">
+        <div class="cadastro">
+            <div>
+                <h1>Seja um Heroi</h1>
             </div>
 
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/francês.png">
-                </div>
+            <div>
+                <img src="../../assets/header/perfil.png" alt="">
             </div>
 
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/kimiko.png">
+            <div class="preenchimento">
+        
+            <form action="processa_login.php" method="POST">
+                <div class="preenchimento">
+                    <div class="div_preencher">
+                        <label for="nome_usuario">Nome de Usuario:</label>
+                        <input type="text" name="nome_usuario" placeholder="Nome de Usuário ou Email" required>
+                    </div>
+                    <div class="div_preencher">
+                        <label for="nome_usuario">Senha:</label>
+                        <input type="password" name="senha" placeholder="Senha" required>
+                    </div>
+                    <button class="botao" type="submit">Entrar</button>
                 </div>
-            </div>
-
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/hugiue.png">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/luz estrela.png">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/leitinho.png">
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="imagem-procurado">
-                    <img class="cartaz-procurado" src="../../assets/Procurados/Soldier boy.png">
-                </div>
-            </div>
+            
+             </form>
+            
+        <p>Não tem conta? <a href="cadastro.html">Faça seu cadastro</a></p>
         </div>
-    </div>
+    </section>
+
    
    <footer>
     <div class="footer-container">

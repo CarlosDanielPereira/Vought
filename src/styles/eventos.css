@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
+}
+
+body {
+    font-family: 'bebasneue', sans-serif;
+    background-color: #140D4D;
+    color: white;
+    margin: 0;
+}
+
+.eventos {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+.eventos h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.card-evento {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.img-evento {
+    width: 100%;
+    height: auto;
+}
