@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
+}
+
+body {
+    font-family: 'bebasneue', sans-serif;
+    background-color: #140D4D;
+    color: white;
+    margin: 0;
+}
+
+section{
+    width: 1241px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.noticias {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.noticias h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.container-noticiass {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 20px;
+    padding-bottom: 80px;
+}
+
+.card-noticia {
+    width: 100%;
+    max-width: 700px;
+    background-color: #060033;
+    padding-bottom: 20px;
+    color: white;
+    font-family: 'bebasneue', sans-serif;
+    margin-bottom: 25px;
+}
+
+.card-img-area {
+    position: relative;
+    width: 100%;
+}
+
+.card-img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-texto-img {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.card-descricao {
+    margin: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+    font-size: 16px;
+}
+.faixaherois {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.nomesfaixa {
+    width: 122px;
+    height: 30px;
+}
+
+.nomesfaixamaior {
+    width: 110px;
+    height: 50px;
+}
+
+/*Os sete*/
+
+.imgsete{
+    border-radius: 50px;
+}
+
+.textosete{
+    margin: auto;
+    font-size: 30px;
+    width: 1000px;
+}
+
+.h2sete{
+    margin-top: 30px;
+    font-size: 50px;
+}

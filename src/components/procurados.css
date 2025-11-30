@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'bebasneue';
+    src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
+}
+
+body {
+    font-family: 'bebasneue', sans-serif;
+    background-color: #140D4D;
+    color: white;
+    margin: 0;
+}
+
+.procurados {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 90px;
+}
+
+.procurados h1 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+/* card em 4 colunas */
+.container-procurado {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*colunas de tamanhos iguais, dividindo o espaço da linha em 4 partes.*/
+    gap: 30px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.imagem-procurado {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cartaz-procurado {
+    width: 100%;
+    height: 100%;
+}
