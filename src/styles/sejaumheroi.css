@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+font-family: 'bebasneue';
+src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
+}
+
+body{
+    box-shadow: #140D4D ;
+    height: 100px; 
+    background-color: #140D4D;
+    justify-content: space-between;
+    font-family: 'bebasneue', sans-serif ;
+    color: white;
+
+}
+
+
+
+.container {
+width: 100%;
+max-width: 1200px;
+margin: auto;
+padding: 20px;
+}
+
+
+.titulo {
+font-size: 28px;
+font-weight: bold;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+
+
+.personagens img {
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+display: block;
+}
+
+
+
+.botao-principal {
+margin: 25px auto 0 auto;
+display: block;
+background-color: white;
+color: #0b0d5c;
+border: none;
+padding: 15px 40px;
+font-size: 20px;
+font-weight: bold;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+.texto {
+margin-top: 40px;
+font-size: 20px;
+line-height: 1.6;
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+}

@@ -164,9 +164,9 @@
         <div class="footer-col logo-col">
             <img id="imgfooter" src="assets/footer/vought.contatos.png" alt="Logo Vought">
             <div class="divredes">
-                <a href="#"><img class="redesfootergit" src="assets/footer/github.png" alt=""></a>
-                <a href="#"><img class="redesfooter" src="assets/footer/instagram.png" alt=""></a>
-                <a href="#"><img class="redesfooter" src="assets/footer/email.png" alt=""></a>
+                <a href="https://github.com/CarlosDanielPereira/Vought"><img class="redesfootergit" src="assets/footer/github.png" alt=""></a>
+                <a href="https://www.instagram.com/voughtintl/"><img class="redesfooter" src="assets/footer/instagram.png" alt=""></a>
+                <a href="mailto:vought@gmail.com"><img class="redesfooter" src="assets/footer/email.png" alt=""></a>
             </div>
         </div>
 
