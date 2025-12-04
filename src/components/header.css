@@ -19,6 +19,8 @@ src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
 
 .h3menu{
     font-size: 30px;
+    text-decoration: none; 
+    color: white;
 }
 
 .cabeçalho{
@@ -64,4 +66,48 @@ src: url('../../assets/fonte/BebasNeue-Regular.ttf') format('woff2');
     border-radius: 50px;
     padding: 15px 40px 15px 40px;
     font-size: 20px;
+}
+.dropdown {
+    position: relative;
+}
+
+/* Esconde o menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #140D4D;
+    padding: 10px 0;
+    list-style: none;
+    min-width: 150px;
+    border: 2px solid white;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/* Itens do dropdown */
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: white;
+    color: #140D4D;
+}
+
+/* Mostrar o menu ao passar o mouse */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.h3menu {
+    cursor: pointer;
 }

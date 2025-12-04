@@ -13,24 +13,30 @@
     <header>
         <div class="cabeçalho">
             <div class="divcab">
-                <a href="../../index.html">
-                    <div class="logo">
-                        <img src="../../assets/header/logo.png">
-                    </div>
+                <a href="../../index.php">
+                <div class="logo">
+                    <img src="../../assets/header/logo.png">
+                </div>
                 </a>
                 <div class="cabeçalho-paginas">
-                    <div class="divmenu">
-                        <h3 class="h3menu">Heróis v</h3>
+                    <div class="divmenu dropdown">
+                        <h3 class="h3menu">Heróis ▼</h3>
+                        <ul class="dropdown-menu">
+                            <li><a href="../../src/pages/catalogo.html">Catalogo de Herois</a></li>
+                            <li><a href="../../src/pages/sejaumheroi.html">Seja um Heroi</a></li>
+                            <li><a href="../../src/pages/procurados.html">Procurados</a></li>
+                        </ul>
                     </div>
-                    <div class="divmenu">
-                        <h3 class="h3menu">Notícias v</h3>
+
+                    <div class="divmenu dropdown">
+                        <a class="h3menu" href="../../src/pages/noticias.html"><h3 class="h3menu">Notícias ▼</h3></a>
                     </div>
-                    <div class="divmenu">
-                        <h3 class="h3menu">Eventos v</h3>
+
+                    <div class="divmenu dropdown">
+                        <a class="h3menu" href="../../src/pages/eventos.html"><h3 class="h3menu">Eventos ▼</h3></a>
                     </div>
                 </div>
             </div>
-
             <div class="divcab">
                 <a class="abotao" href="../../src/pages/chamada.html">
                     <h3 class="h3botao">EMERGÊNCIA</h3>
@@ -42,6 +48,7 @@
                 </div>
             </div>
         </div>
+
     </header>
 
     <section class="secao">
@@ -53,42 +60,42 @@
             <div>
                 <img src="../../assets/header/perfil.png" alt="">
             </div>
-            <form action="">
-            <div class="preenchimento">
-                <div class="div_preencher">
-                    <label for="nome_usuario">Nome de Usuario:</label>
-                    <form action="processa_cadastro.php" method="POST" enctype="multipart/form-data">
-                    <input class="divinput" type="text" name="nome_usuario" placeholder="Nome de Usuário" required>
-                </div>
+            <form action="processa_cadastro.php" method="POST" enctype="multipart/form-data">
+    <div class="preenchimento">
 
-                <div class="div_preencher">
-                    <label for="email">Email:</label>
-                    <input class="divinput" type="email" name="email" placeholder="E-mail" required>
-                </div>
+        <div class="div_preencher">
+            <label for="nome_usuario">Nome de Usuario:</label>
+            <input class="divinput" type="text" name="nome_usuario" required>
+        </div>
 
-                <div class="div_preencher">
-                    <label for="telefone">Telefone:</label>
-                    <input class="divinput" type="tel" name="telefone" placeholder="Telefone (ex: 99999-9999)" required>
-                </div>
+        <div class="div_preencher">
+            <label>Email:</label>
+            <input class="divinput" type="email" name="email" required>
+        </div>
 
-                <div class="div_preencher">
-                    <label for="data_nascimento">Data de Nascimento:</label>
-                    <input class="divinput" type="date" name="data_nascimento" id="data_nascimento" required>
-                </div>
-                
-                <div class="div_preencher">
-                    <label for="senha">Senha:</label>
-                    <input class="divinput" type="password" name="senha" placeholder="Senha" required>
-                </div>
-                
-                <div class="div_preencher">
-                    <label for="foto_perfil">Foto de Perfil:</label>
-                    <input class="divinput" type="file" name="foto_perfil" id="foto_perfil" required>
-                </div>
-                
-                <button class="botao" type="submit">Cadastrar</button>
-                </div>
-            </form>
+        <div class="div_preencher">
+            <label>Telefone:</label>
+            <input class="divinput" type="tel" name="telefone" required>
+        </div>
+
+        <div class="div_preencher">
+            <label>Data de Nascimento:</label>
+            <input class="divinput" type="date" name="data_nascimento" required>
+        </div>
+        
+        <div class="div_preencher">
+            <label>Senha:</label>
+            <input class="divinput" type="password" name="senha" required>
+        </div>
+        
+        <div class="div_preencher">
+            <label>Foto de Perfil:</label>
+            <input class="divinput" type="file" name="foto_perfil" required>
+        </div>
+        
+        <button class="botao" type="submit">Cadastrar</button>
+    </div>
+</form>
             
         <p>Já tem conta? <a href="login.html">Faça Login</a></p>
         </div>
@@ -96,41 +103,41 @@
 
    
    <footer>
-    <div class="footer-container">
-        <div class="footer-col logo-col">
-            <img id="imgfooter" src="../../assets/footer/vought.contatos.png" alt="Logo Vought">
-            <div class="divredes">
-                <a href="#"><img class="redesfootergit" src="../../assets/footer/github.png" alt=""></a>
-                <a href="#"><img class="redesfooter" src="../../assets/footer/instagram.png" alt=""></a>
-                <a href="#"><img class="redesfooter" src="../../assets/footer/email.png" alt=""></a>
+        <div class="footer-container">
+            <div class="footer-col logo-col">
+                <img id="imgfooter" src="../../assets/footer/vought.contatos.png" alt="Logo Vought">
+                <div class="divredes">
+                    <a href="https://github.com/CarlosDanielPereira/Vought"><img class="redesfootergit" src="../../assets/footer/github.png" alt=""></a>
+                    <a href="https://www.instagram.com/voughtintl/"><img class="redesfooter" src="../../assets/footer/instagram.png" alt=""></a>
+                    <a href="mailto:vought@gmail.com"><img class="redesfooter" src="../../assets/footer/email.png" alt=""></a>
+                </div>
             </div>
-        </div>
 
-        <div class="footer-col">
-            <h2>Heróis</h2>
-            <a href="../../src/pages/catalogo.html">Catálogo de heróis</a>
-            <a href="../../src/pages/sejaumheroi.html">Seja um heroi</a>
-        </div>
+            <div class="footer-col">
+                <h2>Heróis</h2>
+                <a href="../../src/pages/catalogo.html">Catálogo de heróis</a>
+                <a href="../../src/pages/sejaumheroi.html">Seja um heroi</a>
+            </div>
 
-        <div class="footer-col">
-            <h2>Notícias</h2>
-            <a href="../../src/pages/noticias.html">Notícias</a>
-            <a href="../../src/pages/eventos.html">Eventos</a>
-            <a href="../../src/pages/procurados.html">Procurados</a>
-        </div>
+            <div class="footer-col">
+                <h2>Notícias</h2>
+                <a href="../../src/pages/noticias.html">Notícias</a>
+                <a href="../../src/pages/eventos.html">Eventos</a>
+                <a href="../../src/pages/procurados.html">Procurados</a>
+            </div>
 
-        <div class="footer-col">
-            <h2>Sobre</h2>
-            <a href="../../src/pages/cadastro.html">Cadastro</a>
-        </div>
+            <div class="footer-col">
+                <h2>Sobre</h2>
+                <a href="../../src/pages/cadastro.html">Cadastro</a>
+            </div>
 
-        <div class="footer-col">
-            <h2>Emergência</h2>
-            <a href="../../src/pages/chamada.html">Chamada de emergência</a>
-        </div>
+            <div class="footer-col">
+                <h2>Emergência</h2>
+                <a href="../../src/pages/chamada.html">Chamada de emergência</a>
+            </div>
 
-        
-    </div>
+
+        </div>
     </footer>
 
 </body>
