@@ -4,7 +4,7 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 
 const slideWidth = 900; 
-let currentIndex = 0; // Usando 'currentIndex' para clareza
+let currentIndex = 0;
 
 function showSlide() {
     slides.style.transform = `translateX(${-currentIndex * slideWidth}px)`;
@@ -23,3 +23,4 @@ prevBtn.addEventListener("click", () => {
 // Inicializa o carrossel na primeira imagem (índice 0)
 
 showSlide();
+
