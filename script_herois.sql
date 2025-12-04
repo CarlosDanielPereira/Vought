@@ -1,5 +1,6 @@
 CREATE TABLE herois (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
+    idade INT(10) NOT NULL,
     imagem VARCHAR(255) NOT NULL
 );
