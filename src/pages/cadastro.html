@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,9 +15,9 @@
         <div class="cabeçalho">
             <div class="divcab">
                 <a href="../../index.php">
-                <div class="logo">
-                    <img src="../../assets/header/logo.png">
-                </div>
+                    <div class="logo">
+                        <img src="../../assets/header/logo.png">
+                    </div>
                 </a>
                 <div class="cabeçalho-paginas">
                     <div class="divmenu dropdown">
@@ -29,11 +30,15 @@
                     </div>
 
                     <div class="divmenu dropdown">
-                        <a class="h3menu" href="../../src/pages/noticias.html"><h3 class="h3menu">Notícias ▼</h3></a>
+                        <a class="h3menu" href="../../src/pages/noticias.html">
+                            <h3 class="h3menu">Notícias ▼</h3>
+                        </a>
                     </div>
 
                     <div class="divmenu dropdown">
-                        <a class="h3menu" href="../../src/pages/eventos.html"><h3 class="h3menu">Eventos ▼</h3></a>
+                        <a class="h3menu" href="../../src/pages/eventos.html">
+                            <h3 class="h3menu">Eventos ▼</h3>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -60,56 +65,44 @@
             <div>
                 <img src="../../assets/header/perfil.png" alt="">
             </div>
-            <form action="processa_cadastro.php" method="POST" enctype="multipart/form-data">
-    <div class="preenchimento">
+            <form action="../conexao/processa_cadastro.php" method="POST" enctype="multipart/form-data">
+                <div class="preenchimento">
 
-        <div class="div_preencher">
-            <label for="nome_usuario">Nome de Usuario:</label>
-            <input class="divinput" type="text" name="nome_usuario" required>
-        </div>
+                    <div class="div_preencher">
+                        <label for="nome_usuario">Nome de Usuario:</label>
+                        <input class="divinput" type="text" name="nome_usuario" required>
+                    </div>
 
-        <div class="div_preencher">
-            <label>Email:</label>
-            <input class="divinput" type="email" name="email" required>
-        </div>
+                    <div class="div_preencher">
+                        <label>Idade:</label>
+                        <input class="divinput" type="text" name="idade" required>
+                    </div>
 
-        <div class="div_preencher">
-            <label>Telefone:</label>
-            <input class="divinput" type="tel" name="telefone" required>
-        </div>
+                    <div class="div_preencher">
+                        <label>Foto de Perfil:</label>
+                        <input class="divinput" type="file" name="foto_perfil" required>
+                    </div>
 
-        <div class="div_preencher">
-            <label>Data de Nascimento:</label>
-            <input class="divinput" type="date" name="data_nascimento" required>
-        </div>
-        
-        <div class="div_preencher">
-            <label>Senha:</label>
-            <input class="divinput" type="password" name="senha" required>
-        </div>
-        
-        <div class="div_preencher">
-            <label>Foto de Perfil:</label>
-            <input class="divinput" type="file" name="foto_perfil" required>
-        </div>
-        
-        <button class="botao" type="submit">Cadastrar</button>
-    </div>
-</form>
-            
-        <p>Já tem conta? <a href="login.html">Faça Login</a></p>
+                    <button class="botao" type="submit">Cadastrar</button>
+                </div>
+            </form>
+
+            <p>Já tem conta? <a href="login.html">Faça Login</a></p>
         </div>
     </section>
 
-   
-   <footer>
+
+    <footer>
         <div class="footer-container">
             <div class="footer-col logo-col">
                 <img id="imgfooter" src="../../assets/footer/vought.contatos.png" alt="Logo Vought">
                 <div class="divredes">
-                    <a href="https://github.com/CarlosDanielPereira/Vought"><img class="redesfootergit" src="../../assets/footer/github.png" alt=""></a>
-                    <a href="https://www.instagram.com/voughtintl/"><img class="redesfooter" src="../../assets/footer/instagram.png" alt=""></a>
-                    <a href="mailto:vought@gmail.com"><img class="redesfooter" src="../../assets/footer/email.png" alt=""></a>
+                    <a href="https://github.com/CarlosDanielPereira/Vought"><img class="redesfootergit"
+                            src="../../assets/footer/github.png" alt=""></a>
+                    <a href="https://www.instagram.com/voughtintl/"><img class="redesfooter"
+                            src="../../assets/footer/instagram.png" alt=""></a>
+                    <a href="mailto:vought@gmail.com"><img class="redesfooter" src="../../assets/footer/email.png"
+                            alt=""></a>
                 </div>
             </div>
 
@@ -141,4 +134,5 @@
     </footer>
 
 </body>
+
 </html>

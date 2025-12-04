@@ -64,7 +64,7 @@ $result = $conn->query($sql);
     <?php while ($h = $result->fetch_assoc()): ?>
         <div class="card">
             <div class="imagem-heroi">
-                <img class="foto-heroi" src="../../uploads/herois/<?php echo $h['imagem']; ?>" alt="">
+                <img class="foto-heroi" src="uploads/herois/<?php echo $h['imagem']; ?>" alt="">
                 <p class="nome-heroi"><?php echo strtoupper($h['nome']); ?></p>
             </div>
         </div>
