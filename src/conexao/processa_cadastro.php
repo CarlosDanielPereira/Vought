@@ -24,7 +24,7 @@ if (move_uploaded_file($foto_perfil["tmp_name"], $caminho_completo)) {
     
     if ($stmt->execute()) {
         $_SESSION["mensagem"] = "Cadastro realizado com sucesso!";
-        header("Location: ../pages/login.html");
+        header("Location: ../pages/catalogo.php");
         exit();
     } else {
         $_SESSION["erro"] = "Erro ao cadastrar: " . $stmt->error;

@@ -99,20 +99,3 @@ section{
     width: 110px;
     height: 50px;
 }
-
-/*Os sete*/
-
-.imgsete{
-    border-radius: 50px;
-}
-
-.textosete{
-    margin: auto;
-    font-size: 30px;
-    width: 1000px;
-}
-
-.h2sete{
-    margin-top: 30px;
-    font-size: 50px;
-}

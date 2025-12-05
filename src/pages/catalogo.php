@@ -16,6 +16,7 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="../../src/components/header.css">
     <link rel="stylesheet" href="../../src/components/footer.css">
     <link rel="stylesheet" href="../../src/styles/catalogo.css">
+    <link rel="shortcut icon" href="../../assets/header/logo.png" type="image/x-icon">
 </head>
 
 <body>
@@ -218,7 +219,7 @@ $result = $conn->query($sql);
 
             <div class="footer-col">
                 <h2>Sobre</h2>
-                <a href="../../src/pages/cadastro.html">Cadastro</a>
+                <a href="../../src/pages/cadastro.html">Cadastro de Herói</a>
             </div>
 
             <div class="footer-col">
