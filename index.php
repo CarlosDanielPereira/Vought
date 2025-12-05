@@ -89,7 +89,6 @@
                     <h2 class="textosejaheoi">Os Sete Precisam de você</h2>
                     <h2 class="textosejaheoi">Mostre seus poderes reais</h2>
                     <a class="botao" href="#">Seja um heroi</a>
-                    <a class="botao" href="#">Saiba Mais sobre a vought</a>
                 </div>
                 <div>
                     <img class="imgsejaheroi" src="assets/home/logo.png" alt="">
@@ -148,7 +147,7 @@
                         <a href="src/pages/noticias.html"><img src="assets/home/noticias.png" alt=""></a>
                     </div>
                     <div>
-                        <a href="src/pages/catalogo.html"><img src="assets/home/catalogo.herois.png" alt=""></a>
+                        <a href="src/pages/catalogo.php"><img src="assets/home/catalogo.herois.png" alt=""></a>
                     </div>
                 </div>
 
@@ -157,7 +156,7 @@
                         <a href="src/pages/eventos.html"><img src="assets/home/eventos.png" alt=""></a>
                     </div>
                     <div>
-                        <a href="src/pages/sejaumheroi.html"><img src="assets/home/procurados.png" alt=""></a>
+                        <a href="src/pages/procurados.html"><img src="assets/home/procurados.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -206,5 +205,6 @@
     <script src="src/scripts/script.js"></script>
 
 </body>
+
 
 </html>
